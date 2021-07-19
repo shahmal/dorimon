@@ -120,7 +120,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '918921483992@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Azaru','broken','dybala','Hi','Kochi','life','love','power','Rahza','Shahmi','uyir','kozhi','No','Ok','chunk','Bgm','India','poda','bike','patti','endi','Hacker','Hero','Hy','Hlo','waiting','Hii','ganja','feel','bot','Nasheek','Good night','girl']
+const array = ['Azaru','broken','dybala','Hi','Kochi','life','love','power','Rahza','Shahmi','uyir','kozhi','No','Ok','chunk','Bgm','India','poda','bike','patti','endi','Hacker','Hero','Hy','Hlo','waiting','Hii','ganja','feel','bot','Nasheek','girl','Army','bus','Cool','Football','fresh','ganga','Mass','missing','music','nice','nirth','Peace','pettu','poli','Police','Power','RIP','romantic','sad','Thanks']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
